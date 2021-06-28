@@ -26,7 +26,7 @@ class MyClient(discord.Client):
             return
         # Creates a Channel
         command = message.content
-        if not "$create" in command and not "$delete" in command:
+        if not "$create" in command and not "$delete" == command:
             await message.delete()
         if message.content.startswith('$create'):
             name = name_edited(message)
