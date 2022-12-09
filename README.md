@@ -1,3 +1,5 @@
+:no_entry: [DEPRECATED]
+Should update the code as per Discord's new API, stay tuned!
 # Discord-Temp-Channel-Creator-Bot
 This bot can be used to create and delete temporary voice and text channels in discord community server.<br>
 ## Note
